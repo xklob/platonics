@@ -1,0 +1,270 @@
+{
+  "title": "Hypercube projections \u00b7 Native 4K \u00b7 60 fps",
+  "version": 1,
+  "source_bpm": 124,
+  "effective_bpm": 123.95982783357245,
+  "size": [
+    3840,
+    3840
+  ],
+  "variant": "slow-tight",
+  "centered_zoom": 2,
+  "frame_rate": 60,
+  "frames_per_loop": 697,
+  "nominal_frames_per_pose": "697/6",
+  "nominal_hold_frames": "697/8",
+  "nominal_morph_frames": "697/24",
+  "source_beat_seconds": 0.4838709677419355,
+  "beats_per_pose": 4,
+  "beat_seconds": 0.4840277777777778,
+  "hold_beats": 3,
+  "morph_beats": 1,
+  "beats_per_loop": 24,
+  "bars_per_loop": 6,
+  "cycles_per_video": 2,
+  "poses_per_cycle": 3,
+  "steps_per_video": 6,
+  "source_cycle_duration_seconds": 5.806451612903226,
+  "cycle_duration_seconds": 5.808333333333334,
+  "cycle_duration_fraction": "697/120",
+  "source_state_seconds": 1.935483870967742,
+  "source_hold_seconds": 1.4516129032258065,
+  "source_morph_seconds": 0.4838709677419355,
+  "state_seconds": 1.9361111111111111,
+  "hold_seconds": 1.4520833333333334,
+  "morph_seconds": 0.4840277777777778,
+  "source_duration_seconds": 11.612903225806452,
+  "source_duration_fraction": "360/31",
+  "duration_seconds": 11.616666666666667,
+  "duration_fraction": "697/60",
+  "timing_adjustment_percent": 0.032396908409311795,
+  "sampling": "source_time = frame_index/697 * source_duration; 697 frames at exact60fps",
+  "video": "hypercube-4k-60fps-2x-zoom.mp4",
+  "sequence": [
+    "classic",
+    "frontal",
+    "octagonal"
+  ],
+  "names": [
+    "Classic nested cubes",
+    "Frontal square depth",
+    "Octagonal projection"
+  ],
+  "loop_target": "classic",
+  "geometry_file": "geometry.json",
+  "vertices": 16,
+  "edges": 32,
+  "design_radius": 52.0,
+  "output_radius_px": 369.77777777777777,
+  "output_stroke_width_px": 14.222222222222221,
+  "antialias": 3,
+  "supersampling_scope": "local motif tile only",
+  "render_method": "native vector geometry at output resolution; no video upscaling",
+  "grid": {
+    "type": "hexagonal",
+    "design_pitch": 108.0,
+    "output_pitch_px": 768.0,
+    "design_row_pitch": 93.53074360871936,
+    "design_origin": [
+      54.0,
+      54.0
+    ],
+    "center_transform": "(world_center-540)*zoom+540",
+    "centers_design_units": [
+      [
+        0.0,
+        -57.877025565122494
+      ],
+      [
+        216.0,
+        -57.877025565122494
+      ],
+      [
+        432.0,
+        -57.877025565122494
+      ],
+      [
+        648.0,
+        -57.877025565122494
+      ],
+      [
+        864.0,
+        -57.877025565122494
+      ],
+      [
+        1080.0,
+        -57.877025565122494
+      ],
+      [
+        -108.0,
+        129.18446165231614
+      ],
+      [
+        108.0,
+        129.18446165231614
+      ],
+      [
+        324.0,
+        129.18446165231614
+      ],
+      [
+        540.0,
+        129.18446165231614
+      ],
+      [
+        756.0,
+        129.18446165231614
+      ],
+      [
+        972.0,
+        129.18446165231614
+      ],
+      [
+        1188.0,
+        129.18446165231614
+      ],
+      [
+        0.0,
+        316.2459488697549
+      ],
+      [
+        216.0,
+        316.2459488697549
+      ],
+      [
+        432.0,
+        316.2459488697549
+      ],
+      [
+        648.0,
+        316.2459488697549
+      ],
+      [
+        864.0,
+        316.2459488697549
+      ],
+      [
+        1080.0,
+        316.2459488697549
+      ],
+      [
+        -108.0,
+        503.30743608719376
+      ],
+      [
+        108.0,
+        503.30743608719376
+      ],
+      [
+        324.0,
+        503.30743608719376
+      ],
+      [
+        540.0,
+        503.30743608719376
+      ],
+      [
+        756.0,
+        503.30743608719376
+      ],
+      [
+        972.0,
+        503.30743608719376
+      ],
+      [
+        1188.0,
+        503.30743608719376
+      ],
+      [
+        0.0,
+        690.3689233046323
+      ],
+      [
+        216.0,
+        690.3689233046323
+      ],
+      [
+        432.0,
+        690.3689233046323
+      ],
+      [
+        648.0,
+        690.3689233046323
+      ],
+      [
+        864.0,
+        690.3689233046323
+      ],
+      [
+        1080.0,
+        690.3689233046323
+      ],
+      [
+        -108.0,
+        877.430410522071
+      ],
+      [
+        108.0,
+        877.430410522071
+      ],
+      [
+        324.0,
+        877.430410522071
+      ],
+      [
+        540.0,
+        877.430410522071
+      ],
+      [
+        756.0,
+        877.430410522071
+      ],
+      [
+        972.0,
+        877.430410522071
+      ],
+      [
+        1188.0,
+        877.430410522071
+      ],
+      [
+        0.0,
+        1064.4918977395098
+      ],
+      [
+        216.0,
+        1064.4918977395098
+      ],
+      [
+        432.0,
+        1064.4918977395098
+      ],
+      [
+        648.0,
+        1064.4918977395098
+      ],
+      [
+        864.0,
+        1064.4918977395098
+      ],
+      [
+        1080.0,
+        1064.4918977395098
+      ]
+    ],
+    "compositing": "clipped per-pixel maximum"
+  },
+  "morph": {
+    "geometry": "P/q interpolation on a fixed 4D tesseract graph",
+    "projection": "raw = P*v/(1-q*v); bbox-center; normalize maximum radius",
+    "easing": "clamped quintic smootherstep",
+    "brightness": "interpolate per-edge intensities; every edge remains visible"
+  },
+  "color": {
+    "hue": "(((screen_x-540)/zoom+540+(screen_y-540)/zoom+540)/1080)%1",
+    "saturation": 1,
+    "value": 1,
+    "background": "#000000",
+    "temporal_drift": false
+  }
+}
