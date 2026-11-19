@@ -1,6 +1,6 @@
 # platonics
 
-> **Media upload status:** Generator source files and metadata are committed here. The 67 original PNGs, 11 MP4s, 8 source ZIPs, and derived GIF previews are prepared in the downloadable archive but still need a local Git push. The preview links below will work once that push is complete. See [PUBLISH_MEDIA.md](PUBLISH_MEDIA.md).
+**Upload status:** All 44 generator/spec/documentation files, the eight original source ZIPs, and one PNG have been committed. The remaining 66 original PNGs, 11 MP4s, and 11 GIF previews are preserved in a separate media archive ready to extract into this repository and push. See [PUBLISH_MEDIA.md](PUBLISH_MEDIA.md).
 
 Neon-rainbow line geometry: 2D polygon morphs, 3D Platonic solids, and 4D hypercube projections. Contains every original generated still and available video from the **Platonic Solids** conversation (November 18–19, 2026), with their original code-based renderers and render specifications.
 
