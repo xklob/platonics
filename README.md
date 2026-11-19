@@ -1,6 +1,6 @@
 # platonics
 
-**Upload status:** All 44 generator/spec/documentation files, the eight original source ZIPs, and one PNG have been committed. The remaining 66 original PNGs, 11 MP4s, and 11 GIF previews are preserved in a separate media archive ready to extract into this repository and push. See [PUBLISH_MEDIA.md](PUBLISH_MEDIA.md).
+**Collection status:** Complete. All 67 original PNGs, 11 MP4 renders, 11 GIF previews, eight original generator ZIPs, and their extracted source code are published. Use `python3 tools/verify_media.py` to validate the 86 original artifacts.
 
 Neon-rainbow line geometry: 2D polygon morphs, 3D Platonic solids, and 4D hypercube projections. Contains every original generated still and available video from the **Platonic Solids** conversation (November 18–19, 2026), with their original code-based renderers and render specifications.
 
@@ -26,9 +26,9 @@ The 2-second GIFs are convenience previews generated from the original MP4s. Ope
 
 - **67 original PNGs** are in [`renders/stills/`](renders/stills/). Browse the [still-image gallery](STILLS.md).
 - **11 original MP4s** are in `renders/videos/{2d,3d,4d}/`, including the 3840×3840 60fps hypercube versions at normal and 2× zoom.
-- **8 original source archives**, unchanged, are preserved in [`source-archives/`](source-archives/). Their source code, JSON specifications, and geometry files are also extracted in [`generators/`](generators/).
+- **8 original source archives**, unchanged, are preserved in [`archives/original-generator-zips/`](archives/original-generator-zips/). Their source code, JSON specifications, and geometry files are also extracted in [`generators/`](generators/).
 - **11 optional animated GIF previews** and **67 thumbnail WebPs** are derived assets. They are not replacements for the originals.
-- `MANIFEST.csv` contains SHA-256 checksums for all original assets. Run `python3 tools/verify_media.py` to verify recovered bytes.
+- `MANIFEST.csv` contains SHA-256 checksums for all 86 original assets, and `MEDIA_MANIFEST.csv` checks all 97 media files (including derived GIF previews). Run `python3 tools/verify_media.py` to verify recovered bytes.
 
 ## Animation families
 

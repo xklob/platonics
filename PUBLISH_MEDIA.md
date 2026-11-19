@@ -1,16 +1,24 @@
-# Completing the media upload
+# Media collection: published
 
-The Python renderers and metadata can be committed directly through the connected GitHub integration. The **binary images, videos, ZIPs and GIF previews** require a regular Git push from a machine with access to the original bytes.
+All assets have been uploaded to the `master` branch of [xklob/platonics](https://github.com/xklob/platonics).
 
-The downloadable `platonics-complete-repository.zip` package contains all of them, plus their verified SHA-256 checksums. Extract that archive and run:
+- 67 original PNG stills under `renders/stills/{2d,3d,4d}/`
+- 11 original MP4 renders under `renders/videos/{2d,3d,4d}/`
+- 11 short GIF previews under `renders/gifs/{2d,3d,4d}/`
+- 67 optimized WebP thumbnails under `renders/thumbnails/{2d,3d,4d}/`
+- 8 original source ZIPs under `archives/original-generator-zips/`
+- Extracted Python renderers and geometry specifications under `generators/`
+
+## Verify a checkout
 
 ```bash
-cd platonics-repository
-bash tools/publish_to_github.sh
+git clone https://github.com/xklob/platonics.git
+cd platonics
+python3 tools/verify_media.py
 ```
 
-The script clones `xklob/platonics`, copies the complete archive contents, commits the additions, and pushes to `master` using your locally configured GitHub credentials. It does not change unrelated files in the target repository. You can pass a destination checkout path as the script's first argument.
+The 86 original PNG, MP4, and source-ZIP assets are tracked in `MANIFEST.csv` with SHA-256 checksums. A second `MEDIA_MANIFEST.csv` tracks 97 original and derived media assets, including GIFs. The uploaded media was checked against that 97-item manifest before commit.
 
-GitHub warns about files above 50 MiB but accepts files up to 100 MiB in ordinary Git. The two square 4K videos (92.1 MB and 53.6 MB) are below that limit; Git LFS is optional if larger videos are added later.
+## Future additions
 
-Verify the package before pushing with `python3 tools/verify_media.py` (no dependencies required). All 86 recovered originals are included in the manifest: **67 PNG + 11 MP4 + 8 original source ZIP**.
+Add new renders under the appropriate `renders/` subdirectory, update manifests, then commit and push. The two square 4K videos are about 92 MB and 54 MB, so GitHub may warn about their size. Files exceeding GitHub's 100 MiB regular-Git limit should use Git LFS or release assets.
