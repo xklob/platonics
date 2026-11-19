@@ -1,6 +1,6 @@
 # platonics
 
-**NEW:** [Browse 67 single-form variants](SINGLE_FORMS.md) featuring one large centered geometric subject instead of a tiled plane. [Renderer](generators/single-forms/render_single_forms.py) · [Checksums](SINGLE_FORMS_MANIFEST.csv).
+**NEW:** [Browse 67 single-form variants](SINGLE_FORMS.md) and [11 single-form animation loops](SINGLE_ANIMATIONS.md) featuring one large centered geometric subject instead of a tiled plane. [Renderer](generators/single-forms/render_single_forms.py) · [Checksums](SINGLE_FORMS_MANIFEST.csv).
 
 **Collection status:** Complete. All 67 original PNGs, 11 MP4 renders, 11 GIF previews, eight original generator ZIPs, and their extracted source code are published. Use `python3 tools/verify_media.py` to validate the 86 original artifacts.
 
