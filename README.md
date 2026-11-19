@@ -1,5 +1,7 @@
 # platonics
 
+**NEW:** [Browse 67 single-form variants](SINGLE_FORMS.md) featuring one large centered geometric subject instead of a tiled plane. [Renderer](generators/single-forms/render_single_forms.py) · [Checksums](SINGLE_FORMS_MANIFEST.csv).
+
 **Collection status:** Complete. All 67 original PNGs, 11 MP4 renders, 11 GIF previews, eight original generator ZIPs, and their extracted source code are published. Use `python3 tools/verify_media.py` to validate the 86 original artifacts.
 
 Neon-rainbow line geometry: 2D polygon morphs, 3D Platonic solids, and 4D hypercube projections. Contains every original generated still and available video from the **Platonic Solids** conversation (November 18–19, 2026), with their original code-based renderers and render specifications.
